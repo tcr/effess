@@ -1,6 +1,8 @@
 var fs = require('fs')
 var path = require('path')
 
+module.exports = exports = fs;
+
 // inflateSymlinks => should follow symlinks?
 // excludeHiddenUnix => don't match files with leading periods
 // filter == filter(file, dir) returns bool

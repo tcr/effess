@@ -1,8 +1,8 @@
 {
-  "name": "fz",
+  "name": "effess",
   "version": "0.0.1",
   "description": "fs with more functions horray",
-  "main": "index.js",
+  "main": "effess.js",
   "directories": {
     "test": "test"
   },

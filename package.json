@@ -1,0 +1,14 @@
+{
+  "name": "fz",
+  "version": "0.0.1",
+  "description": "fs with more functions horray",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "author": "Tim Cameron Ryan <tim@timryan.org>",
+  "license": "MIT"
+}

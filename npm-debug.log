@@ -1,0 +1,125 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.25
+3 info using node@v0.10.18
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/tim/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/tmp.tgz
+12 verbose folder .
+13 info prepublish effess@0.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/tim/.npm/1f1177db-tar.lock
+16 silly lockFile bea46b1c-6706-0-39484309311956167-tmp-tgz tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/tmp.tgz
+17 verbose lock tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/tmp.tgz /Users/tim/.npm/bea46b1c-6706-0-39484309311956167-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile bea46b1c-6706-0-39484309311956167-tmp-tgz tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/tmp.tgz
+21 silly lockFile bea46b1c-6706-0-39484309311956167-tmp-tgz tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/tmp.tgz
+22 verbose tar unpack /var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/tmp.tgz
+23 silly lockFile e142248b-6706-0-39484309311956167-package tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/package
+24 verbose lock tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/package /Users/tim/.npm/e142248b-6706-0-39484309311956167-package.lock
+25 silly lockFile bea46b1c-6706-0-39484309311956167-tmp-tgz tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/tmp.tgz
+26 verbose lock tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/tmp.tgz /Users/tim/.npm/bea46b1c-6706-0-39484309311956167-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry effess.js
+30 silly gunzTarPerm extractEntry test/readdirRecursive.js
+31 silly gunzTarPerm extractEntry test/a/cool.js
+32 silly gunzTarPerm extractEntry test/a/b/c/d.js
+33 silly gunzTarPerm extractEntry test/c/index.js
+34 silly lockFile e142248b-6706-0-39484309311956167-package tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/package
+35 silly lockFile e142248b-6706-0-39484309311956167-package tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/package
+36 silly lockFile bea46b1c-6706-0-39484309311956167-tmp-tgz tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/tmp.tgz
+37 silly lockFile bea46b1c-6706-0-39484309311956167-tmp-tgz tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/tmp.tgz
+38 verbose tar pack [ '/Users/tim/.npm/effess/0.0.1/package.tgz',
+38 verbose tar pack   '/var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/package' ]
+39 verbose tarball /Users/tim/.npm/effess/0.0.1/package.tgz
+40 verbose folder /var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/package
+41 silly lockFile e142248b-6706-0-39484309311956167-package tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/package
+42 verbose lock tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/package /Users/tim/.npm/e142248b-6706-0-39484309311956167-package.lock
+43 silly lockFile dc197820-tim-npm-effess-0-0-1-package-tgz tar:///Users/tim/.npm/effess/0.0.1/package.tgz
+44 verbose lock tar:///Users/tim/.npm/effess/0.0.1/package.tgz /Users/tim/.npm/dc197820-tim-npm-effess-0-0-1-package-tgz.lock
+45 silly lockFile e142248b-6706-0-39484309311956167-package tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/package
+46 silly lockFile e142248b-6706-0-39484309311956167-package tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-77766-EnenzPUX/1391216056706-0.39484309311956167/package
+47 silly lockFile dc197820-tim-npm-effess-0-0-1-package-tgz tar:///Users/tim/.npm/effess/0.0.1/package.tgz
+48 silly lockFile dc197820-tim-npm-effess-0-0-1-package-tgz tar:///Users/tim/.npm/effess/0.0.1/package.tgz
+49 silly lockFile 4ccac929-ers-tim-npm-effess-0-0-1-package /Users/tim/.npm/effess/0.0.1/package
+50 verbose lock /Users/tim/.npm/effess/0.0.1/package /Users/tim/.npm/4ccac929-ers-tim-npm-effess-0-0-1-package.lock
+51 silly lockFile 4ccac929-ers-tim-npm-effess-0-0-1-package /Users/tim/.npm/effess/0.0.1/package
+52 silly lockFile 4ccac929-ers-tim-npm-effess-0-0-1-package /Users/tim/.npm/effess/0.0.1/package
+53 verbose tar unpack /Users/tim/.npm/effess/0.0.1/package.tgz
+54 silly lockFile 7dc5c1a1-ers-tim-npm-effess-0-0-1-package tar:///Users/tim/.npm/effess/0.0.1/package
+55 verbose lock tar:///Users/tim/.npm/effess/0.0.1/package /Users/tim/.npm/7dc5c1a1-ers-tim-npm-effess-0-0-1-package.lock
+56 silly lockFile dc197820-tim-npm-effess-0-0-1-package-tgz tar:///Users/tim/.npm/effess/0.0.1/package.tgz
+57 verbose lock tar:///Users/tim/.npm/effess/0.0.1/package.tgz /Users/tim/.npm/dc197820-tim-npm-effess-0-0-1-package-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry effess.js
+61 silly gunzTarPerm extractEntry test/readdirRecursive.js
+62 silly gunzTarPerm extractEntry test/a/cool.js
+63 silly gunzTarPerm extractEntry test/a/b/c/d.js
+64 silly gunzTarPerm extractEntry test/c/index.js
+65 silly lockFile 7dc5c1a1-ers-tim-npm-effess-0-0-1-package tar:///Users/tim/.npm/effess/0.0.1/package
+66 silly lockFile 7dc5c1a1-ers-tim-npm-effess-0-0-1-package tar:///Users/tim/.npm/effess/0.0.1/package
+67 silly lockFile dc197820-tim-npm-effess-0-0-1-package-tgz tar:///Users/tim/.npm/effess/0.0.1/package.tgz
+68 silly lockFile dc197820-tim-npm-effess-0-0-1-package-tgz tar:///Users/tim/.npm/effess/0.0.1/package.tgz
+69 verbose chmod /Users/tim/.npm/effess/0.0.1/package.tgz 644
+70 verbose chown /Users/tim/.npm/effess/0.0.1/package.tgz [ 501, 20 ]
+71 silly lockFile 3a52ce78- .
+72 silly lockFile 3a52ce78- .
+73 silly publish { name: 'effess',
+73 silly publish   version: '0.0.1',
+73 silly publish   description: 'fs with more functions horray',
+73 silly publish   main: 'effess.js',
+73 silly publish   directories: { test: 'test' },
+73 silly publish   scripts: { test: 'tap test/*.js' },
+73 silly publish   author: { name: 'Tim Cameron Ryan', email: 'tim@timryan.org' },
+73 silly publish   license: 'MIT',
+73 silly publish   readme: 'ERROR: No README data found!',
+73 silly publish   _id: 'effess@0.0.1',
+73 silly publish   dist: { shasum: 'a396e91b78ed1424e86bd802bdec3eefdd2c42fd' },
+73 silly publish   _from: '.' }
+74 verbose url raw effess
+75 verbose url resolving [ 'https://registry.npmjs.org/', './effess' ]
+76 verbose url resolved https://registry.npmjs.org/effess
+77 info trying registry request attempt 1 at 19:54:17
+78 http PUT https://registry.npmjs.org/effess
+79 http 409 https://registry.npmjs.org/effess
+80 verbose url raw effess
+81 verbose url resolving [ 'https://registry.npmjs.org/', './effess' ]
+82 verbose url resolved https://registry.npmjs.org/effess
+83 info trying registry request attempt 1 at 19:54:17
+84 http GET https://registry.npmjs.org/effess
+85 http 200 https://registry.npmjs.org/effess
+86 error publish fail Cannot publish over existing version.
+86 error publish fail Update the 'version' field in package.json and try again.
+86 error publish fail
+86 error publish fail If the previous version was published in error, see:
+86 error publish fail     npm help unpublish
+86 error publish fail
+86 error publish fail To automatically increment version numbers, see:
+86 error publish fail     npm help version
+87 error System Darwin 13.0.0
+88 error command "node" "/usr/local/bin/npm" "publish"
+89 error cwd /Users/tim/Code/tcr/effess
+90 error node -v v0.10.18
+91 error npm -v 1.3.25
+92 error code EPUBLISHCONFLICT
+93 verbose exit [ 1, true ]

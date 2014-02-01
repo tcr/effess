@@ -10,6 +10,7 @@ module.exports = exports = fs;
 function readdirRecursiveSync (sourceDir, opts)
 {
   opts = opts || {};
+  var returnSourceDir = opts.symSourceDir || sourceDir;
 
   var childopts = JSON.parse(JSON.stringify(opts));
   childopts.fullPath = true;
@@ -41,14 +42,16 @@ function readdirRecursiveSync (sourceDir, opts)
         }
       } while (tmpCurrFile.isSymbolicLink() && (symlinkFull = fs.readlinkSync(symlinkFull[0] == '/' ? symlinkFull : _path.join(sourceDir, symlinkFull))));
       if (tmpCurrFile.isDirectory()) {
-        outarrs.push(readdirResursiveSync(symlinkFull[0] == '/' ? symlinkFull : path.join(sourceDir, symlinkFull), childopts));
+        childopts.symSourceDir = path.join(sourceDir, files[i]);
+        outarrs.push(readdirRecursiveSync(symlinkFull[0] == '/' ? symlinkFull : path.join(sourceDir, symlinkFull), childopts));
+        delete childopts.symSourceDir;
       } else {
         /*  At this point, we've hit a file actually worth copying... so copy it on over. */
-        out.push(symlinkFull[0] == '/' ? symlinkFull : path.join(sourceDir, symlinkFull))
+        out.push(path.join(returnSourceDir, files[i]))
       }
     } else {
       /*  At this point, we've hit a file actually worth copying... so copy it on over. */
-      out.push(path.join(sourceDir, files[i]));
+      out.push(path.join(returnSourceDir, files[i]));
     }
   }
   return out.concat.apply(out, outarrs).map(function (arg) {

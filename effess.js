@@ -40,7 +40,7 @@ function readdirRecursiveSync (sourceDir, opts)
         } catch (e) {
           continue fileIter;
         }
-      } while (tmpCurrFile.isSymbolicLink() && (symlinkFull = fs.readlinkSync(symlinkFull[0] == '/' ? symlinkFull : _path.join(sourceDir, symlinkFull))));
+      } while (tmpCurrFile.isSymbolicLink() && (symlinkFull = fs.readlinkSync(symlinkFull[0] == '/' ? symlinkFull : path.join(sourceDir, symlinkFull))));
       if (tmpCurrFile.isDirectory()) {
         childopts.symSourceDir = path.join(sourceDir, files[i]);
         outarrs.push(readdirRecursiveSync(symlinkFull[0] == '/' ? symlinkFull : path.join(sourceDir, symlinkFull), childopts));

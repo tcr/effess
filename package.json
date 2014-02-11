@@ -1,6 +1,6 @@
 {
   "name": "effess",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "fs with more functions horray",
   "main": "effess.js",
   "directories": {

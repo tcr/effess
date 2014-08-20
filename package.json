@@ -1,8 +1,9 @@
 {
   "name": "effess",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "fs with more functions horray",
   "main": "effess.js",
+  "repository": "tcr/effess",
   "directories": {
     "test": "test"
   },
